@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from eefc_vistas_app2 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
+    path('app2/',views.app2)
+    ]
