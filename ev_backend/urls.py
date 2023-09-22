@@ -22,3 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('app1/',views.app1)
 ]
+from eefc_vistas_app2 import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('app2/',views.app2)
+    ]

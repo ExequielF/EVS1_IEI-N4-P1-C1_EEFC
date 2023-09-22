@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'eefc_vistas_app1',
+    'eefc_vistas_app2',
 ]
 
 MIDDLEWARE = [
